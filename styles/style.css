@@ -1,0 +1,6 @@
+.ohWhat {
+  float: right;
+  clear: both;
+}
+
+/* apparently you can do this in the same class!! keeps it inline */
