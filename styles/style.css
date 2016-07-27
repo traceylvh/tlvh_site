@@ -1,6 +1,15 @@
-.ohWhat {
-  float: right;
-  clear: both;
+body {
+    background-color: lightblue;
 }
 
-/* apparently you can do this in the same class!! keeps it inline */
+/*@media screen and (min-width: 480px) {
+    body {
+        background-color: lightgreen;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    body {
+        background-color: yellow;
+    }
+}*/
