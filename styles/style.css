@@ -60,8 +60,8 @@ table {
   color: #fc72a7;
 }
 
-.salmon {
-  color: #fc9768;
+.orange {
+  color: #f79351;
 }
 
 .blue {
@@ -73,11 +73,11 @@ table {
 }
 
 .green {
-  color: #85c886;
+  color: #63b864;
 }
 
 .ivory {
-  color: #ffffcc;
+  color: #fbf9f0;
 }
 
 /* ======= colors ======= */
@@ -91,7 +91,7 @@ html {
 }
 
 body {
-    background-color: #ffffcc; /* ivory */
+    background-color: #fbf9f0; /* ivory */
     font-size: 62.5%; /* 1em = 10px */
 }
 
