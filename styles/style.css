@@ -95,17 +95,6 @@ body {
     font-size: 62.5%; /* 1em = 10px */
 }
 
-/*@media screen and (min-width: 480px) {
-    body {
-        background-color: lightgreen;
-    }
-}
-
-@media screen and (min-width: 1200px) {
-    body {
-        background-color: yellow;
-    }
-}*/
 
 /*set width of entire site container*/
 .site {
@@ -159,3 +148,20 @@ header h2 {
   color: #fff;
   padding-top: .6em;
 }
+
+/*======================================
+	MEDIA QUERIES
+	======================================*/
+
+/* iPhone at landscape size. 320px is portrait size. */
+/*@media screen and (min-width: 480px) {
+    body {
+        background-color: lightgreen;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    body {
+        background-color: yellow;
+    }
+}*/
