@@ -160,7 +160,16 @@ header h2 {
     }
 }
 
-@media screen and (min-width: 1200px) {
+/* notes from codeschool tutorial, may use later -------- */
+
+/* 768px is standard width for tablet device */
+
+/* test your layout and break where appropriate
+	if it looks funky at 510px, change your 480 break to 510 - take care of it there! */
+
+/* end notes from codeschool tutorial, may use later ---- */
+
+/*@media screen and (min-width: 1200px) {
     body {
         background-color: yellow;
     }
