@@ -95,6 +95,10 @@ body {
     font-size: 62.5%; /* 1em = 10px */
 }
 
+img {
+	max-width: 100%;
+}
+
 
 /*set width of entire site container*/
 .site {
