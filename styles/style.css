@@ -171,6 +171,22 @@ header h2 {
 /* test your layout and break where appropriate
 	if it looks funky at 510px, change your 480 break to 510 - take care of it there! */
 
+/* Retina images */
+@media
+only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-device-pixel-ratio: 1.5) {
+/* Styles */
+/*.logo {
+    background-image: url(logo@2x.png);
+    -webkit-background-size: 12px 16px;
+    background-size: 12px 16px;
+  }
+
+smaller image name logo.png
+larger image name logo@2x.png
+background-size = width of original image
+}*/
+
 /* end notes from codeschool tutorial, may use later ---- */
 
 /*@media screen and (min-width: 1200px) {
