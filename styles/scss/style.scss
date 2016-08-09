@@ -72,3 +72,16 @@ header {
   }
 
 }
+
+section {
+  width: 18%;
+  height: 1000px;
+  float: left;
+  border-right: solid 1px $mainColor;
+  padding-right: 1em;
+  margin-left: 1em;
+}
+
+footer {
+  clear: both;
+}
