@@ -4,6 +4,10 @@ $mainColor: #2c7c8d; //blue
 
 $background: #fbf9f0; //ivory
 
+$text: #000; //black
+
+$lightText: lighten($text, 30);
+
 $yellow: #fcc23b;
 
 $pink: #fc72a7;

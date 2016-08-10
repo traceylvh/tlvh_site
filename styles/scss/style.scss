@@ -37,7 +37,8 @@ h2 {
 h3 {
   font-family: $headings;
   font-size: 2em;
-  font-style: italic;
+  // font-style: italic;
+  color: $lightText;
   padding-top: .6em;
   padding-bottom: .3em;
 }
