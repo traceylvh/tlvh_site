@@ -7,6 +7,7 @@ $background: #fbf9f0; //ivory
 $text: #000; //black
 
 $lightText: lighten($text, 30);
+$linkColor: darken($mainColor, 5);
 
 $yellow: #fcc23b;
 
