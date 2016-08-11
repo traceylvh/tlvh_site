@@ -22,9 +22,14 @@ img {
 
 /*set width of entire site container*/
 .site {
-  width: 80%;
+  width: 60%;
   margin: 40px auto;
 }
+
+// .site {
+//   width: 80%;
+//   margin: 40px auto;
+// }
 
 h2 {
   font-family: $headings;
@@ -86,13 +91,21 @@ header {
 }
 
 section {
-  width: 17%;
-  height: 1000px;
-  float: left;
-  border-right: solid 2px $mainColor;
+  width: 70%;
+  border-bottom: solid 2px $mainColor;
   padding-right: 1em;
-  margin-left: 1em;
+  padding-bottom: 1em;
+  margin-bottom: 3em;
 }
+
+// section {
+//   width: 17%;
+//   height: 1000px;
+//   float: left;
+//   border-right: solid 2px $mainColor;
+//   padding-right: 1em;
+//   margin-left: 1em;
+// }
 
 footer {
   clear: both;

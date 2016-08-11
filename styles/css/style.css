@@ -62,7 +62,7 @@ img {
 
 /*set width of entire site container*/
 .site {
-  width: 80%;
+  width: 60%;
   margin: 40px auto; }
 
 h2 {
@@ -109,12 +109,11 @@ header {
     padding: 10% 10% 2% 0; }
 
 section {
-  width: 17%;
-  height: 1000px;
-  float: left;
-  border-right: solid 2px #2c7c8d;
+  width: 70%;
+  border-bottom: solid 2px #2c7c8d;
   padding-right: 1em;
-  margin-left: 1em; }
+  padding-bottom: 1em;
+  margin-bottom: 3em; }
 
 footer {
   clear: both;
