@@ -106,9 +106,11 @@ header {
     font-size: 2.5em;
     color: #fff;
     padding-top: .6em; }
-  header .headerType {
-    width: 60%;
-    padding: 10% 0 2% 0; }
+
+.headerType {
+  width: 60%;
+  padding: 10% 0 2% 0;
+  margin: auto; }
 
 section {
   width: 70%;
@@ -140,9 +142,8 @@ footer {
     left: -300%; }
   100% {
     left: -400%; } }
-body, figure {
-  margin: 0;
-  font-family: "Oswald", sans-serif; }
+figure {
+  margin: 0; }
 
 div#captioned-gallery {
   width: 100%;
@@ -166,11 +167,21 @@ figure.slider img {
 
 figure.slider figure figcaption {
   position: absolute;
-  bottom: 0;
+  top: 0;
+  left: 35%;
   background: rgba(0, 0, 0, 0.4);
   color: #fff;
-  width: 100%;
+  width: 50%;
+  font-family: "Oswald", sans-serif;
   font-size: 2rem;
-  padding: .6rem; }
+  line-height: 2.8rem;
+  padding: .6rem;
+  text-align: center; }
+
+figure.slider figure figcaption p {
+  font-family: "Bentham", serif;
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+  margin-top: 1rem; }
 
 /*# sourceMappingURL=style.css.map */

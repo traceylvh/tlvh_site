@@ -84,13 +84,13 @@ header {
     padding-top: .6em;
   }
 
-  .headerType {
-    width: 60%;
-    // padding: 10% 10% 2% 0;
-    padding: 10% 0 2% 0;
+}
 
-  }
-
+.headerType {
+  width: 60%;
+  // padding: 10% 10% 2% 0;
+  padding: 10% 0 2% 0;
+  margin: auto;
 }
 
 section {
@@ -130,25 +130,52 @@ footer {
 95% { left: -300%; }
 100% { left: -400%; }
 }
-body, figure {
+figure {
   margin: 0;
-  font-family: $headings;
 }
 div#captioned-gallery {
-  width: 100%; overflow: hidden;
+  width: 100%;
+  overflow: hidden;
 }
 figure.slider {
-  position: relative; width: 500%;
-  font-size: 0; animation: 30s slidy infinite;
+  position: relative;
+  width: 500%;
+  font-size: 0;
+  animation: 30s slidy infinite;
 }
 figure.slider figure {
-  width: 20%; height: auto;
-  display: inline-block;  position: inherit;
+  width: 20%;
+  height: auto;
+  display: inline-block;
+  position: inherit;
 }
-figure.slider img { width: 100%; height: auto; }
+figure.slider img {
+  width: 100%;
+  height: auto;
+}
 figure.slider figure figcaption {
-  position: absolute; bottom: 0;
+  position: absolute;
+  top: 0;
+  left: 35%;
   background: rgba(0,0,0,0.4);
-  color: #fff; width: 100%;
-  font-size: 2rem; padding: .6rem;
+  color: #fff;
+  width: 50%;
+  font-family: $headings;
+  font-size: 2rem;
+  line-height: 2.8rem;
+  padding: .6rem;
+  text-align: center;
+}
+figure.slider figure figcaption p {
+  // position: absolute;
+  // top: 0;
+  // left: 35%;
+  // background: rgba(0,0,0,0.4);
+  // color: #fff;
+  // width: 50%;
+  font-family: $text;
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+  margin-top: 1rem;
+  // padding: .6rem;
 }
